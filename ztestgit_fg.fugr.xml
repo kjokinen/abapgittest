@@ -7,6 +7,12 @@
     <SOBJ_NAME>LZTESTGIT_FGTOP</SOBJ_NAME>
     <SOBJ_NAME>SAPLZTESTGIT_FG</SOBJ_NAME>
    </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZTESTING_DEV</FUNCNAME>
+     <SHORT_TEXT>Test function module</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
   </asx:values>
  </asx:abap>
 </abapGit>
