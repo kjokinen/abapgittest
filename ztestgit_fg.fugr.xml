@@ -8,6 +8,10 @@
    </INCLUDES>
    <FUNCTIONS>
     <item>
+     <FUNCNAME>ZANOTHER_TEST</FUNCNAME>
+     <SHORT_TEXT>Test function module</SHORT_TEXT>
+    </item>
+    <item>
      <FUNCNAME>ZTESTING_DEV</FUNCNAME>
      <SHORT_TEXT>Test function module</SHORT_TEXT>
     </item>
