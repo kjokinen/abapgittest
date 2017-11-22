@@ -2,7 +2,8 @@ FUNCTION ZANOTHER_TEST.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"----------------------------------------------------------------------
-  DATA: t_return TYPE TABLE OF bapiret2.
+  DATA: t_return TYPE TABLE OF bapiret2,
+        l_return type bapiret2.
 
   CALL FUNCTION 'BAPI_USER_GET_DETAIL'
     EXPORTING
@@ -47,6 +48,8 @@ FUNCTION ZANOTHER_TEST.
 *     systems  =     " BAPI Structure for CUA Target Systems
     .
 
+  LOOP AT t_return INTO l_return.
 
+  ENDLOOP.
 
 ENDFUNCTION.
