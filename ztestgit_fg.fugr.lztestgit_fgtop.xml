@@ -3,14 +3,12 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>SAPLZTESTGIT_FG</NAME>
+    <NAME>LZTESTGIT_FGTOP</NAME>
     <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <DBAPL>S</DBAPL>
     <DBNA>D$</DBNA>
-    <SUBC>F</SUBC>
+    <SUBC>I</SUBC>
     <APPL>S</APPL>
-    <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
     <LDBNAME>D$S</LDBNAME>
     <UCCHECK>X</UCCHECK>
